@@ -1,4 +1,4 @@
-@charset "UTF-8";
+charset "UTF-8";
 /* CSS Document */
 
 html, body {
@@ -28,21 +28,21 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
+  width: 33.33%;
   height: 320px;
-  float: left;
+  float left;
 }
 
 #column-1 {
-  background: #d5d5d5;
+  background: #ffeccc;
 }
 
 #column-2 {
-  background: #d5d5d5;
+  background: #ccffcc;
 }
 
 #column-3 {
-  background: #d5d5d5;
+  background: #ffc2b3;
 }
 
 
@@ -60,48 +60,56 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: ;
+    background-color: #b3b3b3;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #ffd480;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: #4dff88;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: #ff8080;
   }
 
   footer {
-    background-color: ;
+    background-color: #808080;
   }
-  
+
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: #8c8c8c;
+  }
+
+  .col-3 {
+    width: 100%;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #ffa64d;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: #00e68a;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: #ff471a;
   }
 
   footer {
-    background-color: ;
+    background-color: #404040;
   }
-   
+
 }
